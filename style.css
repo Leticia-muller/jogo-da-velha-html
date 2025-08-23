@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Relief', sans-serif;
+  background-color: rgb(68, 13, 39);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+button {
+  background-color: rgb(153, 44, 89);
+  height: 120px;
+  width: 120px;
+  border-color: rgb(255, 255, 255);
+  font-size: 45px;
+  font-family: 'Comic Relief', sans-serif;
+  color: rgb(253, 183, 255);
+}
+
+.texto {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: rgb(226, 87, 203);
+}
+
+.caixa {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 0;
+  padding: 60px;
+}
